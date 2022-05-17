@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type:none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body{
+    background-image: url(../img/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

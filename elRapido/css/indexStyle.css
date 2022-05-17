@@ -1,0 +1,336 @@
+/* TABLE SCORE / TABLE QUESTION */
+
+table,
+td,th {
+    opacity: 0.9;
+    width: 80%;
+    max-width: 800px;
+    margin:auto;
+    margin-top: 10px;
+    border: 1px solid #333;
+    font-size: 1.3em;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: #FF781F;
+    margin-bottom: 10px;
+}
+
+/* ADMIN QUESTION */
+
+#questionsTable{
+    font-size: 1em;
+    margin: 0;
+}
+
+.divContener{
+    margin: 10px auto;
+    min-height:600px;
+    height:600px;
+    min-width:829px;
+    width: 933px;
+    overflow:auto;
+    }
+
+.btnQuest{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 500px;
+    background: #28c4bc;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.btnQuest button{
+    font-size: 1.3em;
+    width:100%;
+}
+
+#createQuestion{
+    display: none;
+    position: absolute;
+    bottom: -200px;
+    right: 450px;
+    transition: 2s;
+}
+
+.messageAlertQuestion{
+    font-size: 1.8em;
+    position: absolute;
+    top: 230px;
+    transform: translateX(50px);
+    width: 400px;
+}
+
+.messageRightQuestion, .messageFauteQuestion{
+    right: 570px;
+}
+
+/* LOGIN / SIGN IN / CONTACT */
+
+.container{
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 7px;
+    max-width: 250px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+#containerInscription{
+    padding-top: 40px;
+    max-width: 250px;
+    margin: 15px auto;
+    border-radius: 50px;
+    background: #28c4bc;
+    padding: 30px;
+}
+
+#containerContact{
+    padding-top: 40px;
+    width: 500px;
+    margin: 15px auto;
+    border-radius: 50px;
+    background: #28c4bc;
+    padding: 30px;
+}
+
+.loginf {
+    border-radius: 50px;
+    width:100%;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #f1f1f1;
+    background: #28c4bc;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container, #containeri, h2, .login{
+    width: 38%;
+    padding-bottom: 10px;
+}
+
+h2,.login{
+    background: #28c4bc;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], .btn {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(39, 80, 26);
+    box-sizing: border-box;
+    background: #ffffff;
+
+}
+
+/* Set a style for all buttons */
+input[type=submit], .btn {
+    background-color: #157772;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+    
+}
+
+input[type=submit]{
+    font-size: 1.5em;
+    height: 58px;
+
+}
+
+input[type=submit]:hover {
+    background-color: rgb(96, 182, 182);
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+button:hover{
+    background-color: rgb(96, 182, 182);
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+/* LOGIN BUBBLE */
+
+.PersoSpace{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 15%;
+    min-width: 200px;
+    margin: 15px auto;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #28c4bc;
+    padding: 30px;
+}
+
+.messageAccueil{
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    color: rgb(91, 43, 122);
+}
+
+.PersoNav ul li{
+    padding: 5px;
+}
+
+/* PLAY NOW */
+
+.btnPlay{
+    border: 1px solid rgb(255, 255, 255);
+    background: #28c4bc;
+    border-radius: 200px;
+    width: 600px;
+    margin: 68px auto;
+}
+
+.btnD{
+    width: 100%;
+    
+}
+
+.btnP{
+    width: 400px;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.btnJoin{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background: #28c4bc;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    width: 600px;
+    transition: 0.5s ease;
+}
+
+.btnJoin:hover{
+    background-color: #216864;
+}
+
+#createParty{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: none;
+    padding: 50px;
+}
+
+#createParty button{
+    font-size: 1.5em;
+}
+
+#btnCancelCreate{
+    float: right;
+    transform: translateY(-75px);
+}
+
+#joinParty{
+    text-align: center;
+    margin-top: 70px;
+    display: none;
+    width: 60%;
+}
+
+#joinParty button{
+    width: 350px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#waitPopup{
+    display: none;
+    margin: 10px auto;
+    width: 50%;
+    font-size: 1.2em;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #28c4bc;
+    padding: 30px;
+    justify-content: center;
+    text-align:center;
+}
+
+/* PERSONAL SPACE */
+
+.containermdp{
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 7px;
+    max-width: 250px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.PersoSpaceL{
+    min-width: 300px;
+    width: 30%;
+    font-size: 1.2em;
+    margin: 15px 250px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #28c4bc;
+    padding: 30px;
+}
+
+.PersoSpaceR{
+    right: 250px;
+    top: 330px;
+    float: right;
+    max-width: 20%;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #28c4bc;
+    padding: 30px;
+}
+
+.messageFauteInscription, .messageFauteQuestion, .messageAlert{
+    color:red; 
+}
+
+.messageBonInscription, .messageRightQuestion{
+    color:green;  
+}
+
+.messageFauteInscription, .messageFauteQuestion, 
+.messageBonInscription, .messageRightQuestion,
+.messageAlert{
+    background-color: rgb(189, 189, 189);
+    padding: 3px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+/* HELP */
+
+.presentation, .ranking, .logSign, .InGame{
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: #28c4bc;
+    padding: 30px;
+    font-size: 1.1em;
+}
+
+.subtitle{
+    text-align: center;
+    color: rgb(91, 43, 122);
+}

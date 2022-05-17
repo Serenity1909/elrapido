@@ -1,0 +1,132 @@
+/* PLAYER INFO */
+
+#ready1, #ready2{
+    display: none;
+    margin: auto;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.bubblePlayer{
+    margin: 5px auto;
+    width: 60%;
+   text-align: center;
+   background-color: rgba(255, 166, 0, 0.781);
+   border: 1px solid black;
+   border-radius: 50px;
+}
+
+.player1, .player2{
+    margin: 10px;
+    display: inline-table;
+    background: #28c4bc;
+    padding: 40px;
+    width: 30%;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    height: 340px;
+}
+
+.player2{
+    margin-left: 100px;
+}
+
+h5{
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+img{
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 500px;
+    margin-bottom: 20px;
+}
+
+.timer{
+    font-size: 1.8em;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+button[type=submit]{
+    background-color: #157772;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 49%;
+}
+
+.youTurn{
+    margin: 10px auto;
+    width: 100px;
+    padding: 5px;
+    background-color: #28c4bc;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* QUESTION */
+
+.exit{
+    text-align: center;
+    float: right;
+    width: 200px;
+}
+
+.questHeader{
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin: 5px auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 70%;
+    font-size: 2.5em;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+.answer{
+    margin: 15px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.rep{
+    font-size: 1.3em;
+}
+
+#rep1, #rep2, #rep3, #rep4{
+    color: black;
+    margin:auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* GAME OVER */
+
+.popUpGameOver{
+    position: absolute;
+    display: none;
+    left: 300px;
+    bottom: 400px;
+    font-size: 3em;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #00ffdd;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
