@@ -6,4 +6,4 @@ Is a project for my school. In fact, i had to create a mini game of questions.
 
 I use javascript with AJAX for the game engine and PHP for the backend.
 
-We weren't allow to use boostrap or library that we had not seen during classes so all is from Scratch unfortunately
+We weren't allow to use boostrap or library that we had not seen during classes so all is from Scratch.
